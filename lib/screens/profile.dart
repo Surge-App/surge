@@ -128,8 +128,8 @@ class _ProfileState extends State<Profile> {
             backgroundColor: Color(0xff00E676),
             foregroundColor: Colors.white,
             onPressed: () async {
-              String phoneNumber = '+919885000923';
-              var url = 'https://wa.me/$phoneNumber?text=Hi%20Surge!%20';
+              var phoneNumber = '+919885000923';
+              var url = "https://wa.me/$phoneNumber?text=Hi%20Surge!%20";
               await launch(url);
             }),
         backgroundColor: Color(0xff473270),
