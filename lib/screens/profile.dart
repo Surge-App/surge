@@ -128,8 +128,8 @@ class _ProfileState extends State<Profile> {
             backgroundColor: Color(0xff00E676),
             foregroundColor: Colors.white,
             onPressed: () async {
-              var phoneNumber = '+919885000923';
-              var url = "https://wa.me/$phoneNumber?text=Hi%20Surge!%20";
+              String phoneNumber = '+919885000923';
+              var url = 'https://wa.me/$phoneNumber?text=Hi%20Surge!%20';
               await launch(url);
             }),
         backgroundColor: Color(0xff473270),
@@ -276,8 +276,9 @@ class _ProfileState extends State<Profile> {
                 style: ElevatedButton.styleFrom(
                   shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(10.0),
-                  ), backgroundColor: Color(0xffD19549),
+                  ),
                   elevation: 10,
+                  primary: Color(0xffD19549),
                   padding: EdgeInsets.symmetric(horizontal: 60, vertical: 8),
                 ),
               ),

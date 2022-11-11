@@ -41,23 +41,15 @@ class _BottomBarState extends State<BottomBar> {
         elevation: 0,
         items: [
           BottomNavigationBarItem(
-              icon: Icon(Icons.home_outlined),
-              // title: Text("Home")
-              label: "Home"
-              ),
+              icon: Icon(Icons.home_outlined), title: Text("Home")),
           BottomNavigationBarItem(
               icon: Icon(Icons.event_note_outlined),
-              //title: Text("Transaction")
-              label: "Transaction"
-              ),
+              title: Text("Transaction")),
           BottomNavigationBarItem(
               icon: Icon(Icons.account_balance_wallet_outlined),
-              //title: Text("wallet")
-              label: "Wallet"
-              ),
+              title: Text("wallet")),
           BottomNavigationBarItem(
-              icon: Icon(Icons.settings), label: "Profile"
-              ),
+              icon: Icon(Icons.settings), title: Text("Profile")),
         ],
       ),
       body: pages[currentIndex],

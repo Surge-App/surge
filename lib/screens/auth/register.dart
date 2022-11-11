@@ -207,10 +207,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
                     style: ElevatedButton.styleFrom(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10.0),
-                      ), backgroundColor: Color(0xff9B4BFF),
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(10.0),
+                      ),
                       elevation: 10,
+                      primary: Color(0xff9B4BFF),
                       padding: EdgeInsets.symmetric(
                           horizontal: MediaQuery.of(context).size.width * 0.36,
                           vertical: MediaQuery.of(context).size.height * 0.012),
