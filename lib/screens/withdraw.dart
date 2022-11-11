@@ -307,9 +307,8 @@ class _WithdrawScreenState extends State<WithdrawScreen> {
                         style: ElevatedButton.styleFrom(
                           shape: new RoundedRectangleBorder(
                             borderRadius: new BorderRadius.circular(10.0),
-                          ),
+                          ), backgroundColor: Color(0xff14EE80),
                           elevation: 10,
-                          primary: Color(0xff14EE80),
                           padding: EdgeInsets.symmetric(horizontal: 100, vertical: 15),
                         ),
                       ),

@@ -276,9 +276,8 @@ class _ProfileState extends State<Profile> {
                 style: ElevatedButton.styleFrom(
                   shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(10.0),
-                  ),
+                  ), backgroundColor: Color(0xffD19549),
                   elevation: 10,
-                  primary: Color(0xffD19549),
                   padding: EdgeInsets.symmetric(horizontal: 60, vertical: 8),
                 ),
               ),

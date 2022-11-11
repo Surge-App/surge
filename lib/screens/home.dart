@@ -367,9 +367,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                           shape: new RoundedRectangleBorder(
                                             borderRadius:
                                                 new BorderRadius.circular(10.0),
-                                          ),
+                                          ), backgroundColor: Color(0xffBD8753),
                                           elevation: 20,
-                                          primary: Color(0xffBD8753),
                                           padding: EdgeInsets.symmetric(
                                               horizontal: 86, vertical: 15),
                                         ),

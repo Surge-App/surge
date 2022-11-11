@@ -17,7 +17,7 @@ class MessagingService {
   Map<String, dynamic> transations(int amount) {
     return {
       'time': DateTime.now(),
-      'amount': amount,
+      'amount': amount,    
     };
   }
 
